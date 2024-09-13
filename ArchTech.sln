@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.WebApi", "src\ArchTech.WebApi\ArchTech.WebApi.csproj", "{3E814897-196D-4467-B962-F1FE9EBD961C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Interactors", "src\ArchTech.Interactors\ArchTech.Interactors.csproj", "{9EB0F5D6-CCB3-4F4F-8652-68FD6D0EBF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Custom", "src\ArchTech.Custom\ArchTech.Custom.csproj", "{D9BCAA90-8834-43DC-A549-D95A18B5C475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{0F8B6DF4-CE33-424B-970A-841825078CF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{03AA5F0A-AA89-4101-A1F9-23FE7352E86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Samples.WebApi", "samples\ArchTech.Samples.WebApi\ArchTech.Samples.WebApi.csproj", "{D6525E6F-72C8-4502-BB76-9ED4D40E5F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Samples.WebApi.Application", "samples\ArchTech.Samples.WebApi.Application\ArchTech.Samples.WebApi.Application.csproj", "{F13C8298-5885-4ADF-8721-654218A92160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Streams", "src\ArchTech.Streams\ArchTech.Streams.csproj", "{B4F8E9AB-92ED-40A4-8785-6DA0D9D80985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Samples.Worker", "samples\ArchTech.Samples.Worker\ArchTech.Samples.Worker.csproj", "{A20CAB3D-5D49-4700-AFF1-019BFFE83049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Samples.Worker.Application", "samples\ArchTech.Samples.Worker.Application\ArchTech.Samples.Worker.Application.csproj", "{28CC8CB0-3340-4B14-84E4-7311E07CAB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTech.Worker", "src\ArchTech.Worker\ArchTech.Worker.csproj", "{362C916D-00EF-4110-884B-BC272138A6A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E814897-196D-4467-B962-F1FE9EBD961C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E814897-196D-4467-B962-F1FE9EBD961C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E814897-196D-4467-B962-F1FE9EBD961C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E814897-196D-4467-B962-F1FE9EBD961C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB0F5D6-CCB3-4F4F-8652-68FD6D0EBF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB0F5D6-CCB3-4F4F-8652-68FD6D0EBF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB0F5D6-CCB3-4F4F-8652-68FD6D0EBF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB0F5D6-CCB3-4F4F-8652-68FD6D0EBF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BCAA90-8834-43DC-A549-D95A18B5C475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BCAA90-8834-43DC-A549-D95A18B5C475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BCAA90-8834-43DC-A549-D95A18B5C475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BCAA90-8834-43DC-A549-D95A18B5C475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6525E6F-72C8-4502-BB76-9ED4D40E5F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6525E6F-72C8-4502-BB76-9ED4D40E5F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6525E6F-72C8-4502-BB76-9ED4D40E5F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6525E6F-72C8-4502-BB76-9ED4D40E5F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13C8298-5885-4ADF-8721-654218A92160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13C8298-5885-4ADF-8721-654218A92160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13C8298-5885-4ADF-8721-654218A92160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13C8298-5885-4ADF-8721-654218A92160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F8E9AB-92ED-40A4-8785-6DA0D9D80985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F8E9AB-92ED-40A4-8785-6DA0D9D80985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F8E9AB-92ED-40A4-8785-6DA0D9D80985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F8E9AB-92ED-40A4-8785-6DA0D9D80985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20CAB3D-5D49-4700-AFF1-019BFFE83049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20CAB3D-5D49-4700-AFF1-019BFFE83049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20CAB3D-5D49-4700-AFF1-019BFFE83049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20CAB3D-5D49-4700-AFF1-019BFFE83049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CC8CB0-3340-4B14-84E4-7311E07CAB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CC8CB0-3340-4B14-84E4-7311E07CAB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CC8CB0-3340-4B14-84E4-7311E07CAB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CC8CB0-3340-4B14-84E4-7311E07CAB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362C916D-00EF-4110-884B-BC272138A6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362C916D-00EF-4110-884B-BC272138A6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362C916D-00EF-4110-884B-BC272138A6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362C916D-00EF-4110-884B-BC272138A6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9BCAA90-8834-43DC-A549-D95A18B5C475} = {0F8B6DF4-CE33-424B-970A-841825078CF0}
+		{9EB0F5D6-CCB3-4F4F-8652-68FD6D0EBF3B} = {0F8B6DF4-CE33-424B-970A-841825078CF0}
+		{3E814897-196D-4467-B962-F1FE9EBD961C} = {0F8B6DF4-CE33-424B-970A-841825078CF0}
+		{D6525E6F-72C8-4502-BB76-9ED4D40E5F98} = {03AA5F0A-AA89-4101-A1F9-23FE7352E86B}
+		{F13C8298-5885-4ADF-8721-654218A92160} = {03AA5F0A-AA89-4101-A1F9-23FE7352E86B}
+		{B4F8E9AB-92ED-40A4-8785-6DA0D9D80985} = {0F8B6DF4-CE33-424B-970A-841825078CF0}
+		{A20CAB3D-5D49-4700-AFF1-019BFFE83049} = {03AA5F0A-AA89-4101-A1F9-23FE7352E86B}
+		{28CC8CB0-3340-4B14-84E4-7311E07CAB5A} = {03AA5F0A-AA89-4101-A1F9-23FE7352E86B}
+		{362C916D-00EF-4110-884B-BC272138A6A5} = {0F8B6DF4-CE33-424B-970A-841825078CF0}
+	EndGlobalSection
+EndGlobal
